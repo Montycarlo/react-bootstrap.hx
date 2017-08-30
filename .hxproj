@@ -1,0 +1,32 @@
+{
+  "_path": "haxe-react-bootstrap",
+  "_filename": ".hxproj",
+  "common": {
+    "name": "haxe-react-bootstrap",
+    "sources": [
+      "src"
+    ],
+    "flags": [],
+    "prepend": null,
+    "prependFile": null,
+    "resources": {},
+    "libraries_haxe": {},
+    "libraries_reg": {}
+  },
+  "solutions": {
+    "haxe-react-bootstrap": {
+      "target": "js",
+      "out_dir": "bin",
+      "out_bin": "haxe-react-bootstrap",
+      "main": "Main",
+      "name": null,
+      "sources": [],
+      "flags": [],
+      "prepend": null,
+      "prependFile": null,
+      "resources": {},
+      "libraries_haxe": {},
+      "libraries_reg": {}
+    }
+  }
+}
