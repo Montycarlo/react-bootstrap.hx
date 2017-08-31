@@ -17,15 +17,20 @@
     "haxe-react-bootstrap": {
       "target": "js",
       "out_dir": "bin",
-      "out_bin": "haxe-react-bootstrap",
+      "out_bin": "haxe-react-bootstrap.js",
       "main": "Main",
       "name": null,
       "sources": [],
-      "flags": [],
+      "flags": [
+        "react_global"
+      ],
       "prepend": null,
       "prependFile": null,
       "resources": {},
-      "libraries_haxe": {},
+      "libraries_haxe": {
+        "react": "*",
+        "pushstate": "*"
+      },
       "libraries_reg": {}
     }
   }
