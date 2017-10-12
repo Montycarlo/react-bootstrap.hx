@@ -1,19 +1,10 @@
 package react;
 
-import haxe.extern.EitherType;
+import react.ReactHelpers;
+import react.ClassAttributes;
 
-// type Key = string | number;
-typedef Key = EitherType<String,Int>;
-
-//  type Ref<T> = string | { bivarianceHack(instance: T | null): any }["bivarianceHack"];
-typedef Ref<T> = EitherType<String,Null<T>->Dynamic>;
-
-typedef HTMLProps<T> = {
+typedef HTMLProps<T> = {>ClassAttributes<T>
   
-  @:optional var key:Key;
-
-  @:optional var ref: Ref<T>;
-
   // Standard HTML Attributes
   @:optional var accept: String;
   @:optional var acceptCharset: String;
