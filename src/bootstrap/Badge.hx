@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef BadgeProps = {
+import react.HTMLProps;
+
+private typedef BadgeProps = {>HTMLProps<Badge>,
   @:optional var bsClass: String;
   @:optional var pullRight: Bool;
 };

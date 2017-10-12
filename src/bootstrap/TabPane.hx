@@ -1,8 +1,9 @@
 package bootstrap;
 
+import react.HTMLProps;
 import haxe.extern.EitherType;
 
-private typedef TabPaneProps = {
+private typedef TabPaneProps = {>HTMLProps<TabPane>,
   @:optional var animation: EitherType<Bool,String>;
   @:native("aria-labelledby") 
     @:optional var aria_labelledby: String;

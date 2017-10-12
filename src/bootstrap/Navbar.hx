@@ -1,8 +1,9 @@
 package bootstrap;
 
+import react.HTMLProps;
 import haxe.extern.EitherType;
 
-private typedef NavbarProps = {
+private typedef NavbarProps = {>HTMLProps<Navbar>,
   @:optional var brand: Dynamic; // TODO: Add more specific type
   @:optional var bsSize: Size;
   @:optional var bsStyle: String;

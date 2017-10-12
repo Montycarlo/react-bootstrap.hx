@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef PageHeaderProps = {
+import react.HTMLProps;
+
+private typedef PageHeaderProps = {>HTMLProps<PageHeader>,
 };
 
 @:native("ReactBootstrap.PageHeader")

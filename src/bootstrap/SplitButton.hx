@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef SplitButtonProps = {
+import react.HTMLProps;
+
+private typedef SplitButtonProps = {>HTMLProps<SplitButton>,
   @:optional var bsStyle: String;
   @:optional var bsSize: Size;
   @:optional var dropdownTitle: Dynamic; // TODO: Add more specific type

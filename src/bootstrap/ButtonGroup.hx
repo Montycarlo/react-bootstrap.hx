@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef ButtonGroupProps = {
+import react.HTMLProps;
+
+private typedef ButtonGroupProps = {>HTMLProps,
   @:optional var block: Bool;
   @:optional var bsSize: Size;
   @:optional var bsStyle: String;

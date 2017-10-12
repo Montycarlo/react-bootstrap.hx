@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef SplitToggleProps = {
+import react.HTMLProps;
+
+private typedef SplitToggleProps = {>HTMLProps<SplitToggle>,
 };
 
 @:native("ReactBootstrap.SplitToggle")

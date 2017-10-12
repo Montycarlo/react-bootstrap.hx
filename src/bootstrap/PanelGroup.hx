@@ -1,8 +1,9 @@
 package bootstrap;
 
+import react.HTMLProps;
 import react.ReactComponent;
 
-private typedef PanelGroupProps = {
+private typedef PanelGroupProps = {>HTMLProps<PanelGroup>,
   @:optional var accordion: Bool;
   @:optional var activeKey: Dynamic;
   @:optional var bsSize: Size;

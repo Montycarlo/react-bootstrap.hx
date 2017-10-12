@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef InputGroupAddonProps = {
+import react.HTMLProps;
+
+private typedef InputGroupAddonProps = {>HTMLProps<InputGroupAddon>,
 };
 
 @:native("ReactBootstrap.InputGroupAddon")

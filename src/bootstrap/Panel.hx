@@ -1,8 +1,9 @@
 package bootstrap;
 
+import react.HTMLProps;
 import react.ReactComponent;
 
-private typedef PanelProps = {
+private typedef PanelProps = {>HTMLProps<Panel>,
   @:optional var bsClass: String;
   @:optional var bsSize: Size;
   @:optional var bsStyle: String;

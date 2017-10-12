@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef ImageProps = {
+import react.HTMLProps;
+
+private typedef ImageProps = {>HTMLProps<Image>,
   @:optional var circle: Bool;
   @:optional var responsive: Bool;
   @:optional var rounded: Bool;

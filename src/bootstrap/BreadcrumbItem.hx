@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef BreadcrumbItemProps = {
+import react.ReactProps;
+
+private typedef BreadcrumbItemProps = {>ReactProps<BreadcrumbItem>,
   @:optional var active: Bool;
   @:optional var href: String;
   @:optional var title: ReactElement;

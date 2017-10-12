@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef TabProps = {
+import react.HTMLProps;
+
+private typedef TabProps = {>HTMLProps<Tab>,
   @:optional var animation: Bool;
   @:native("aria-labelledby") 
     @:optional var aria_labelledby: String;
@@ -12,8 +14,8 @@ private typedef TabProps = {
 
 @:native("ReactBootstrap.Tab")
 extern class Tab extends ReactComponentOfProps<TabProps>{
-  public static Container: TabContainer;
-  public static Content: TabContent;
-  public static Pane: TabPane;
+  @:native('Container') public static var container: TabContainer;
+  @:native('Content') public static var content: TabContent;
+  @:native('Pane') public static var pane: TabPane;
 }
 

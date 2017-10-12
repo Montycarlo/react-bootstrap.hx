@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef InputGroupProps = {
+import react.HTMLProps;
+
+private typedef InputGroupProps = {>HTMLProps<InputGroup>,
   @:optional var bsClass: String;
   @:optional var bsSize: Size;
 };

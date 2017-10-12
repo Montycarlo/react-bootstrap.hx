@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef FormControlFeedbackProps = {
+import react.HTMLProps;
+
+private typedef FormControlFeedbackProps = {>HTMLProps<FormControlFeedback>,
 };
 
 @:native("ReactBootstrap.FormControlFeedback")

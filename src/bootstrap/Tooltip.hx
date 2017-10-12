@@ -1,8 +1,9 @@
 package bootstrap;
 
+import react.HTMLProps;
 import haxe.extern.EitherType;
 
-private typedef TooltipProps = {
+private typedef TooltipProps = {>HTMLProps<Tooltip>,
   @:optional var arrowOffsetLeft: EitherType<Float,String>;
   @:optional var arrowOffsetTop: EitherType<Float,String>;
   @:optional var bsSize: Size;

@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef DropdownProps = {
+import react.HTMLProps;
+
+typedef DropdownProps = {>HTMLProps<Dropdown>,
   @:optional var bsClass: String;
   @:optional var componentClass: String;
   @:optional var disabled: Bool;

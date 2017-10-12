@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef ButtonToolbarProps = {
+import react.HTMLProps;
+
+private typedef ButtonToolbarProps = {>HTMLProps<ButtonToolbar>,
   @:optional var block: Bool;
   @:optional var bsSize: Size;
   @:optional var bsStyle: String;

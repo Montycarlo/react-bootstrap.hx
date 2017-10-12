@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef FormProps = {
+import react.HTMLProps;
+
+private typedef FormProps = {>HTMLProps<Form>,
   @:optional var bsClass: String;
   @:optional var componentClass: String;
   @:optional var horizontal: Bool;

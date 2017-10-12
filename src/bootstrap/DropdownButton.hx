@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef DropdownButtonProps = {
+import react.HTMLProps;
+
+private typedef DropdownButtonProps = {>HTMLProps<DropdownButton>,
   @:optional var block: Bool;
   @:optional var bsSize: Size;
   @:optional var bsStyle: String;

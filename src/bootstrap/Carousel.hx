@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef CarouselProps = {
+import react.HTMLProps;
+
+private typedef CarouselProps = {>HTMLProps<Carousel>,
   @:optional var activeIndex: Int;
   @:optional var bsSize: Size;
   @:optional var bsStyle: String;
@@ -19,5 +21,7 @@ private typedef CarouselProps = {
 
 @:native("ReactBootstrap.Carousel")
 extern class Carousel extends ReactComponentOfProps<CarouselProps>{
+  @:native('Caption') public static var caption:CarouselCaption;
+  @:native('Item') public static var item:CarouselItem;
 }
 

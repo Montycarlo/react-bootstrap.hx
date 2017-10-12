@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef CarouselCaptionProps = {
+import react.HTMLProps;
+
+private typedef CarouselCaptionProps = {>HTMLProps<CarouselCaption>
   @:optional var componentClass: ReactElement;
 };
 

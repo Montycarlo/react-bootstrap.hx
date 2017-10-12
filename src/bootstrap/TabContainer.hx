@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef TabContainerProps = {
+import react.HTMLAttributes;
+
+private typedef TabContainerProps = {>HTMLAttributes<TabContainer>,
   @:optional var activeKey: Dynamic;
   @:optional var defaultActiveKey: Dynamic;
   @:optional var generateChildId: Dynamic->Dynamic->String;

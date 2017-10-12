@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef WellProps = {
+import react.HTMLProps;
+
+private typedef WellProps = {>HTMLProps<Well>,
   @:optional var bsSize: Size;
   @:optional var bsStyle: String;
 };

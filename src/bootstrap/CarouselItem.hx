@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef CarouselItemProps = {
+import react.HTMLProps;
+
+private typedef CarouselItemProps = {>HTMLProps<CarouselItem>
   @:optional var active: Bool;
   @:optional var animtateIn: Bool;
   @:optional var animateOut: Bool;

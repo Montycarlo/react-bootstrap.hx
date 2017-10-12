@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef TabsProps = {
+import react.HTMLProps;
+
+private typedef TabsProps = {>HTMLProps<Tabs>,
   @:optional var activeKey: Dynamic;
   @:optional var animation: Bool;
   @:optional var bsStyle: String;

@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef ColProps = {
+import react.HTMLProps;
+
+private typedef ColProps = {>HTMLProps<Col>,
   @:optional var componentClass: String;
   @:optional var lg: Float;
   @:optional var lgHidden: Bool;

@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef AccordianProps = {
+import react.HTMLProps;
+
+private typedef AccordianProps = {>HTMLProps<Accordian>,
   @:optional var bsSize: Size;
   @:optional var bsStyle: String;
   @:optional var collapsible: Bool;

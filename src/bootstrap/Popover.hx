@@ -1,9 +1,10 @@
 package bootstrap;
 
+import react.HTMLProps;
 import react.ReactComponent;
 import haxe.extern.EitherType;
 
-private typedef PopoverProps = {
+private typedef PopoverProps = {>HTMLProps<Popover>,
   @:optional var arrowOffsetLeft: EitherType<Float,String>;
   @:optional var arrowOffsetTop: EitherType<Float,String>;
   @:optional var bsSize: Size;

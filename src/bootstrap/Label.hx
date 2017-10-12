@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef LabelProps = {
+import react.HTMLProps;
+
+private typedef LabelProps = {>HTMLProps<Label>,
   @:optional var bsSize: Size;
   @:optional var bsStyle: String;
 };

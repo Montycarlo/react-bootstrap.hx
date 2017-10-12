@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef RowProps = {
+import react.HTMLProps;
+
+private typedef RowProps = {>HTMLProps<Row>,
   @:optional var componentClass: String;
 };
 

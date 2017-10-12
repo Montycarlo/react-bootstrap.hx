@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef MenuItemProps = {
+import react.HTMLProps;
+
+private typedef MenuItemProps = {>HTMLProps<MenuItem>,
   @:optional var active: Bool;
   @:optional var bsClass: String;
   @:optional var disabled: Bool;

@@ -1,8 +1,9 @@
 package bootstrap;
 
+import react.HTMLProps;
 import haxe.extern.EitherType;
 
-private typedef NavItemProps = {
+private typedef NavItemProps = {>HTMLProps<NavItem>,
   @:optional var active: Bool;
   @:optional var brand: Dynamic; // TODO: Add more specific type
   @:optional var bsSize: Size;

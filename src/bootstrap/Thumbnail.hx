@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef ThumbnailProps = {
+import react.HTMLProps;
+
+private typedef ThumbnailProps = {>HTMLProps<Thumbnail>,
   @:optional var bsSize: Size;
   @:optional var bsStyle: String;
 };

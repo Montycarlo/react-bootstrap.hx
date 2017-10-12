@@ -1,8 +1,9 @@
 package bootstrap;
 
+import react.HTMLProps;
 import haxe.extern.EitherType;
 
-private typedef TableProps = {
+private typedef TableProps = {>HTMLProps<Table>,
   @:optional var bordered: Bool;
   @:optional var condensed: Bool;
   @:optional var hover: Bool;

@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef AlertProps = {
+import react.HTMLProps;
+
+private typedef AlertProps = {>HTMLProps<Accordian>,
   @:optional var bsSize: Size;
   @:optional var bsStyle: String;
   @:optional var closeLabel: String;

@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef JumbotronProps = {
+import react.HTMLProps;
+
+private typedef JumbotronProps = {>HTMLProps<Jumbotron>,
   @:optional var componentClass: String;
 };
 

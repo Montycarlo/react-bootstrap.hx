@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef FormControlStaticProps = {
+import react.HTMLProps;
+
+private typedef FormControlStaticProps = {>HTMLProps<FormControlStatic>,
   @:optional var bsClass: String;
   @:optional var componentClass: String;
 };

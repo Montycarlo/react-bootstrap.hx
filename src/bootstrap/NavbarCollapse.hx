@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef NavbarCollapseProps = {
+import react.HTMLProps;
+
+private typedef NavbarCollapseProps = {>HTMLProps<NavbarCollapse>,
 };
 
 @:native("ReactBootstrap.NavbarCollapse")

@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef PagerItemProps = {
+import react.HTMLProps;
+
+private typedef PagerItemProps = {>HTMLProps<PagerItem>,
   @:optional var disabled: Bool;
   @:optional var eventKey: Dynamic;
   @:optional var next: Bool;

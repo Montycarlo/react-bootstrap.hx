@@ -1,8 +1,9 @@
 package bootstrap;
 
+import react.HTMLProps;
 import react.ReactComponent;
 
-private typedef ProgressBarProps = {
+private typedef ProgressBarProps = {>HTMLProps<ProgressBar>,
   // Optional
   @:optional var active: Bool;
   @:optional var bsSize: Size;

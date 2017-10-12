@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef GlyphiconProps = {
+import react.HTMLProps;
+
+private typedef GlyphiconProps = {>HTMLProps<Glyphicon>,
   var glyph:String;
 };
 

@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef HelpBlockProps = {
+import react.HTMLProps;
+
+private typedef HelpBlockProps = {>HTMLProps<HelpBlock>,
   @:optional var bsClass: String;
 };
 

@@ -1,8 +1,9 @@
 package bootstrap;
 
+import react.HTMLProps;
 import react.ReactComponent;
 
-private typedef PaginationProps = {
+private typedef PaginationProps = {>HTMLProps<Pagination>,
   @:optional var activePage: Int;
   @:optional var bsSize: Size;
   @:optional var bsStyle: String;

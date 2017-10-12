@@ -2,8 +2,9 @@ package bootstrap;
 
 import haxe.extern.EitherType;
 import react.ReactComponent;
+import react.ReactProps;
 
-private typedef OverlayTrigger = {
+private typedef OverlayTrigger = {>ReactProps<OverlayTrigger>,
   // Required
   var overlay: Dynamic; // TODO: Add more specific type
 

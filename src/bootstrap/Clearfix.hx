@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef ClearfixProps = {
+import react.HTMLProps;
+
+private typedef ClearfixProps = {>HTMLProps<Clearfix>
   @:optional var componentClass: String,
   @:optional var visibleXsBlock: Bool;
   @:optional var visibleSmBlock: Bool;

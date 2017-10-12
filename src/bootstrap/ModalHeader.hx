@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef ModalHeaderProps = {
+import react.HTMLProps;
+
+private typedef ModalHeaderProps = {>HTMLProps<ModalHeader>,
   // TODO: these props are not correct https://github.com/react-bootstrap/react-bootstrap/blob/v0.31.1/src/ModalHeader.js#L9
   @:optional var closeButton: Bool;
   @:optional var modalClassName: String;

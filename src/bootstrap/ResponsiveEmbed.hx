@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef ResponsiveEmbedProps = {
+import react.HTMLProps;
+
+private typedef ResponsiveEmbedProps = {>HTMLProps<ResponsiveEmbed>,
   @:optional var a16by9: Bool;
   @:optional var a4by3: Bool;
   @:optional var bsClass: String;

@@ -1,8 +1,9 @@
 package bootstrap;
 
+import react.HTMLProps;
 import js.html.InputElement;
 
-private typedef FormControlProps = {
+private typedef FormControlProps = {>HTMLProps<FormControl>,
   @:optional var bsClass: String;
   @:optional var bsSize: Size;
   @:optional var componentClass: String;
@@ -13,5 +14,7 @@ private typedef FormControlProps = {
 
 @:native("ReactBootstrap.FormControl")
 extern class FormControl extends ReactComponentOfProps<FormControlProps>{
+  @:native('Feedback') public static var feedback:FormControlFeedback;
+  @:native('Static') public static var static:FormControlStatic;
 }
 

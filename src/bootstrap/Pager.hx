@@ -1,11 +1,13 @@
 package bootstrap;
 
-private typedef PagerProps = {
+import react.HTMLProps;
+
+private typedef PagerProps = {>HTMLProps<Pager>,
   @:optional var onSelect: SelectCallback;
 };
 
 @:native("ReactBootstrap.Pager")
 extern class Pager extends ReactComponentOfProps<PagerProps>{
-  public static Item: PagerItem;
+  @:native('Item') public static var item: PagerItem;
 }
 

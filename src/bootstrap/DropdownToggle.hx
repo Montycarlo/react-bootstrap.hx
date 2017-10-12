@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef DropdownToggleProps = {
+import react.HTMLProps;
+
+private typedef DropdownToggleProps = {>HTMLProps<DropdownToggle>,
   @:optional var bsRole: String;
   @:optional var noCaret: Bool;
   @:optional var open: Bool;

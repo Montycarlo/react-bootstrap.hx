@@ -1,5 +1,6 @@
 package bootstrap;
 
+import react.HTMLProps;
 import js.html.HtmlElement;
 
 @:enum abstract ValidationState(String) from String{
@@ -8,10 +9,10 @@ import js.html.HtmlElement;
  var ERROR = "error";
 }
 
-private typedef RadioProps = {
+private typedef RadioProps = {>HTMLProps<Radio>,
   @:optional var bsClass: String;
   @:optional var disabled: Bool;
-  @:optional var inline: Bool;
+  @:native('inline') @:optional var _inline: Bool;
   @:optional var inputRef: HTMLInputElement->Void;
   @:optional var validationState: ValidationState;
 };

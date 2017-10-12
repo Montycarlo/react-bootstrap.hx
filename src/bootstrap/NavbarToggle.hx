@@ -1,8 +1,9 @@
 package bootstrap;
 
+import react.HTMLProps;
 import react.ReactMouseEvent;
 
-private typedef NavbarToggleProps = {
+private typedef NavbarToggleProps = {>HTMLProps<NavbarToggle>,
   @:optional var onClick:ReactMouseEvent->Void;
 };
 

@@ -1,8 +1,9 @@
 package bootstrap;
 
+import react.HTMLProps;
 import js.html.HtmlElement;
 
-private typedef ModalProps = {
+private typedef ModalProps = {>HTMLProps<Modal>,
   // Required
   var onHide: Function;
 

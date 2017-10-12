@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef ListGroupItemProps = {
+import react.HTMLProps;
+
+private typedef ListGroupItemProps = {>HTMLProps<ListGroupItem>,
   @:optional var active: Dynamic;
   @:optional var bsSize: Sizes;
   @:optional var bsStyle: String;

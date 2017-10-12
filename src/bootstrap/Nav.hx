@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef NavProps = {
+import react.HTMLProps;
+
+private typedef NavProps = {>HTMLProps<Nav>,
   @:optional var activeHref: String;
   @:optional var activeKey: Dynamic;
   @:optional var bsSize: Size;

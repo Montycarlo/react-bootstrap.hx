@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef DropdownMenuProps = {
+import react.HTMLProps;
+
+private typedef DropdownMenuProps = {>HTMLProps<DropdownMenu>,
   @:optional var labelledBy:Either<String,Float>;
   @:optional var onClose: Function;
   @:optional var onSelect: SelectCallback;

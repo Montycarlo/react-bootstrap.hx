@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef NavbarBrandProps = {
+import react.HTMLProps;
+
+private typedef NavbarBrandProps = {>HTMLProps<NavbarBrand>,
 };
 
 @:native("ReactBootstrap.NavbarBrand")

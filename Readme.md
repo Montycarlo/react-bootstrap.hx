@@ -1,11 +1,10 @@
 
 ## haxe-react-bootstrap
+Externs for the ReactBootstrap package.
 
 #### Motivation
-Motivation for this program here.
 
 #### Solution 
-Describe the solution here.
 
 #### Usage
 ```

@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef ModalFooterProps = {
+import react.HTMLProps;
+
+private typedef ModalFooterProps = {>HTMLProps<ModalFooter>,
   // TODO: these props are not correct https://github.com/react-bootstrap/react-bootstrap/blob/v0.31.1/src/ModalFooter.js#L9
   @:optional var modalClassName: String;
 };

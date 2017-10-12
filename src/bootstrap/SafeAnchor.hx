@@ -1,8 +1,9 @@
 package bootstrap;
 
+import react.HTMLProps;
 import react.ReactMouseEvent;
 
-private typedef SafeAnchorProps = {
+private typedef SafeAnchorProps = {>HTMLProps<SafeAnchor>,
   @:optional var href: String;
   @:optional var onClick: ReactMouseEvent->Void;
   @:optional var disabled: Bool;

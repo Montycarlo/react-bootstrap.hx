@@ -1,7 +1,9 @@
 package bootstrap;
 
-private typedef FadeProps = {
-  @:optional var in: Bool;
+import react.HTMLProps;
+
+private typedef FadeProps = {>HTMLProps<Fade>,
+  @:native('in') @:optional var _in: Bool;
   @:optional var timeout: Float;
   @:optional var transitionAppear: Bool;
   @:optional var unmountOnExit: Bool;

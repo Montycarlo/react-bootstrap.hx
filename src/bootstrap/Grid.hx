@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef GridProps = {
+import react.HTMLProps;
+
+private typedef GridProps = {>HTMLProps<Grid>,
   @:optional var componentClass: String;
   @:optional var fluid: Bool;
   @:optional var bsClass: String;

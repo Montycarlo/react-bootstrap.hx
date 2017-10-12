@@ -1,6 +1,8 @@
 package bootstrap;
 
-private typedef InputGroupButtonProps = {
+import react.HTMLProps;
+
+private typedef InputGroupButtonProps = {>HTMLProps<InputGroupButton>,
 };
 
 @:native("ReactBootstrap.InputGroupButton")
