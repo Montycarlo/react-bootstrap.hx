@@ -1,0 +1,16 @@
+{
+	"name": "react-bootstrap",
+	"license": "MIT",
+	"tags": [],
+	"description": "react-bootstrap externs",
+	"contributors": [
+    "epidevJosh"
+  ],
+	"releasenote": "See https://github.com/Montycarlo/react-bootstrap.hx<Paste>",
+	"version": "15.0.0",
+	"url": "https://github.com/Montycarlo/react-bootstrap.hx",
+	"classPath": "src/",
+	"dependencies": {
+		"react" : "*"
+	}
+}
