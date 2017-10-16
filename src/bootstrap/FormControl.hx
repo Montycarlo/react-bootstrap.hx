@@ -15,6 +15,6 @@ private typedef FormControlProps = {>HTMLProps<FormControl>,
 @:native("ReactBootstrap.FormControl")
 extern class FormControl extends ReactComponentOfProps<FormControlProps>{
   @:native('Feedback') public static var feedback:FormControlFeedback;
-  @:native('Static') public static var static:FormControlStatic;
+  @:native('Static') public static var _static:FormControlStatic;
 }
 

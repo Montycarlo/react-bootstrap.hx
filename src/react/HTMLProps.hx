@@ -1,9 +1,10 @@
 package react;
 
+import haxe.extern.EitherType;
 import react.ReactHelpers;
 import react.ClassAttributes;
 
-typedef HTMLProps<T> = {>ClassAttributes<T>
+typedef HTMLProps<T> = {>ClassAttributes<T>,
   
   // Standard HTML Attributes
   @:optional var accept: String;

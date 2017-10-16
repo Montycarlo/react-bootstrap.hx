@@ -7,7 +7,7 @@
     "epidevJosh"
   ],
 	"releasenote": "See https://github.com/Montycarlo/react-bootstrap.hx",
-	"version": "16.0.0",
+	"version": "16.0.1",
 	"url": "https://github.com/Montycarlo/react-bootstrap.hx",
 	"classPath": "src/",
 	"dependencies": {
