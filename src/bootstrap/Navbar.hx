@@ -15,20 +15,21 @@ private typedef NavbarProps = {>HTMLProps<Navbar>,
   @:optional var fluid: Bool;
   @:optional var inverse: Bool;
   @:optional var navExpanded: Bool;
-  @:optional var onToggle: Function;
+  @:optional var onToggle: Dynamic->Void;
   @:optional var staticTop: Bool;
   @:optional var toggleButton: Dynamic; // TODO: Add more specific type
   @:optional var toggleNavKey: EitherType<String,Int>;
 };
 
+typedef Brand = NavbarBrand;
+typedef Collapse = NavbarCollapse;
+typedef Header = NavbarHeader;
+typedef Toggle = NavbarToggle;
+typedef Link = NavbarLink;
+typedef Text = NavbarText;
+typedef Form = NavbarForm;
+
 @:native("ReactBootstrap.Navbar")
 extern class Navbar extends ReactComponentOfProps<NavbarProps>{
-  public static Brand: NavbarBrand;
-  public static Collapse: NavbarCollapse;
-  public static Header: NavbarHeader;
-  public static Toggle: NavbarToggle;
-  public static Link: NavbarLink;
-  public static Text: NavbarText;
-  public static Form: NavbarForm;
 }
 

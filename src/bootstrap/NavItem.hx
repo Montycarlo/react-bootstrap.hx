@@ -18,7 +18,7 @@ private typedef NavItemProps = {>HTMLProps<NavItem>,
   @:optional var linkId: String;
   @:optional var navExpanded: Bool;
   @:optional var onSelect: SelectCallback;
-  @:optional var onToggle: Function;
+  @:optional var onToggle: Dynamic->Void;
   @:optional var staticTop: Bool;
   @:optional var toggleButton: Dynamic; // TODO: Add more specific type
   @:optional var toggleNavKey: EitherType<String,Int>;
