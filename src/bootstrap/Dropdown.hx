@@ -2,13 +2,13 @@ package bootstrap;
 
 import react.HTMLProps;
 
-typedef DropdownProps = {>HTMLProps<Dropdown>,
+typedef DropdownProps<T> = {>HTMLProps<T>,
   @:optional var bsClass: String;
   @:optional var componentClass: String;
   @:optional var disabled: Bool;
   @:optional var dropup: Bool;
   @:optional var id: String;
-  @:optional var onClose: Function;
+  @:optional var onClose: Dynamic->Void;
   @:optional var onSelect: SelectCallback;
   @:optional var onToggle: Bool->Void;
   @:optional var open: Bool;
@@ -17,6 +17,6 @@ typedef DropdownProps = {>HTMLProps<Dropdown>,
 };
 
 @:native("ReactBootstrap.Dropdown")
-extern class Dropdown extends ReactComponentOfProps<DropdownProps>{
+extern class Dropdown extends ReactComponentOfProps<DropdownProps<Dropdown>>{
 }
 

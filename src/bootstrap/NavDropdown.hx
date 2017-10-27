@@ -2,8 +2,7 @@ package bootstrap;
 
 import react.HTMLProps;
 
-private typedef NavDropdownProps = {>Dropdown.DropdownProps,
-  >HTMLProps<NavDropdown>,
+private typedef NavDropdownProps = {>Dropdown.DropdownProps<NavDropdown>,
   @:optional var active: Bool;
   @:optional var noCaret: Bool;
   @:optional var eventKey: Dynamic;
